@@ -51,7 +51,7 @@
             const data = Object.fromEntries(formData);
 
             try {
-                const response = await fetch('http://localhost:5000/api/contact', {
+                const response = await fetch('https://api.yourdomain.com/api/contact', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(data)
@@ -71,7 +71,7 @@
             const data = Object.fromEntries(formData);
 
             try {
-                const response = await fetch('http://localhost:5000/api/schedule', {
+                const response = await fetch('https://api.yourdomain.com/api/schedule', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(data)
